@@ -2,6 +2,15 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper-red {
+   background-color: #f05f40;
+   color: white;
+}
+
 /*Nav Bar*/
 
 .navalert-container {
@@ -81,7 +90,11 @@ body {
 
  .page-header h2 {
      margin-top: 0;
-     
+
+ }
+
+ .quotes .page-header {
+     margin-bottom: 40px;
  }
 
 
@@ -116,6 +129,7 @@ body {
      width: 75px;
      height: 5px;
      border: 0;
+     background-color: #444;
      
  }
 
@@ -124,8 +138,19 @@ body {
 
  }
 
+ .block-dividers--white {
+     background-color: white;
+ }
+
  .block-dividers-short {
      width: 35px;
+ }
+
+ /* Content Containers */
+
+ .content-container {
+     padding-top: 75px;
+     padding-bottom: 75px;
  }
 
  /* buttons */
@@ -157,4 +182,26 @@ body {
      padding: 5px 15px;
      background-color: #eec802;
      border-color: #eec802;
+ }
+
+ .feature {
+     text-align: center;
+     margin-bottom: 40px;
+
+ }
+
+ .feature i {
+     margin-bottom: 20px;
+     font-size: 45px;
+     line-height: 45px;
+ }
+
+ .feature .btn {
+     background-color: white;
+     border-color: white;
+     border-radius: 15px;
+     min-width: 100px;
+     font-weight: bold;
+     margin-top: 10px;
+     color: #f05f40;
  }
